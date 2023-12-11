@@ -1,0 +1,22 @@
+.input__wrapper {
+    position: relative;
+}
+
+.input__icon {
+    position:absolute;
+    top:8px;
+    left: 8px;
+}
+
+.input{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(18 / 12);
+    padding-left: 40px;
+    width: 216px;
+    height: 38px;
+    border-radius: 10px;
+    background-color:#F9FBFF ;
+    border: none;
+}
+
