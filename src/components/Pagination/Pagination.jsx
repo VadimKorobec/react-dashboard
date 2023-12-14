@@ -1,6 +1,7 @@
 import styles from "./Pagination.module.scss";
+import { IoChevronBackOutline } from "react-icons/io5";
+import { IoChevronForwardOutline } from "react-icons/io5";
 import { ReactComponent as IconRight } from "../../assets/icon/_.svg";
-import { ReactComponent as IconLeft } from "../../assets/icon/_ (1).svg";
 
 export const Pagination = () => {
   return (
@@ -10,7 +11,7 @@ export const Pagination = () => {
       </h2>
       <div className={styles.pagination__wrapper}>
         <div className={styles.icon__wrapper}>
-          <IconLeft />
+          <IoChevronBackOutline className={styles.icon} />
         </div>
         <ul className={styles.pagination__list}>
           <li className={styles.pagitation__item}>1</li>
@@ -21,7 +22,7 @@ export const Pagination = () => {
           <li className={styles.pagitation__item}>40</li>
         </ul>
         <div className={styles.icon__wrapper}>
-          <IconRight />
+          <IoChevronForwardOutline className={styles.icon} />
         </div>
       </div>
     </div>
