@@ -20,6 +20,14 @@
   gap: 12px;
 }
 
+.icon__wrapper {
+  width: 26px;
+  height: 24px;
+  background-color: rgba(245, 245, 245, 1);
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+}
+
 .pagination__list {
   display: flex;
   gap: 12px;
