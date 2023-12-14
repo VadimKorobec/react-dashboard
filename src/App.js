@@ -6,8 +6,8 @@ export const App = () => {
   return (
     <>
       <Header />
-      <h1 className="title__app" >Hello Evano 👋🏼,</h1>
-      <Board/>
+      <h1 className="title__app">Hello Evano 👋🏼,</h1>
+      <Board />
     </>
   );
 };
