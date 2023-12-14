@@ -14,7 +14,7 @@ export const Pagination = () => {
           <IoChevronBackOutline className={styles.icon} />
         </div>
         <ul className={styles.pagination__list}>
-          <li className={styles.pagitation__item}>1</li>
+          <li className={styles.current}>1</li>
           <li className={styles.pagitation__item}>2</li>
           <li className={styles.pagitation__item}>3</li>
           <li className={styles.pagitation__item}>4</li>
