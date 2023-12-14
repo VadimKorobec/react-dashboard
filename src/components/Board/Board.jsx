@@ -3,11 +3,11 @@ import { ListItems } from "../ListItems/listItems";
 import styles from "./Board.module.scss";
 import { Search } from "../Search/Search";
 import { Pagination } from "../Pagination/Pagination";
-import { Container } from "../Container/Container";
+
 
 export const Board = () => {
   return (
-    <Container>
+    <>
       <div className={styles.board__container}>
         <div className={styles.board__wrapper}>
           <div className={styles.title__wrapper}>
@@ -39,6 +39,6 @@ export const Board = () => {
         <ListItems />
         <Pagination />
       </div>
-    </Container>
+    </>
   );
 };

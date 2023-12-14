@@ -1,7 +1,7 @@
 import styles from "./Pagination.module.scss";
 import { IoChevronBackOutline } from "react-icons/io5";
 import { IoChevronForwardOutline } from "react-icons/io5";
-import { ReactComponent as IconRight } from "../../assets/icon/_.svg";
+
 
 export const Pagination = () => {
   return (
