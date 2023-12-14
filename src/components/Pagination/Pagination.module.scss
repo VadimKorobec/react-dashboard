@@ -51,6 +51,22 @@
   gap: 12px;
 }
 
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 26px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(12 / 12);
+  background-color: #5932ea;
+  border: 1px solid #5932ea;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .pagitation__item {
   display: flex;
   align-items: center;
@@ -69,6 +85,7 @@
   &:hover,
   &:focus {
     background-color: #5932ea;
+    border: 1px solid #5932ea;
     color: #ffffff;
   }
 }
