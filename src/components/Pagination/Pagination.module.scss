@@ -21,11 +21,29 @@
 }
 
 .icon__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 26px;
   height: 24px;
   background-color: rgba(245, 245, 245, 1);
   border: 1px solid #eeeeee;
   border-radius: 4px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #5932ea;
+  }
+
+  &:hover .icon,
+  &:focus .icon {
+    stroke: #ffffff;
+  }
+}
+
+.icon {
+  stroke: #404b52;
 }
 
 .pagination__list {
@@ -34,9 +52,23 @@
 }
 
 .pagitation__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 26px;
   height: 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(12 / 12);
   background-color: rgba(245, 245, 245, 1);
   border: 1px solid #eeeeee;
   border-radius: 4px;
+  color: #404b52;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #5932ea;
+    color: #ffffff;
+  }
 }
