@@ -1,7 +1,7 @@
 import styles from "./Header.module.scss";
 import headerSvg from "../../assets/icon/setting.svg";
 import { ListMenu } from "../ListMenu/ListMenu";
-import{User} from '../User/User'
+import { User } from "../User/User";
 
 export const Header = () => {
   return (
@@ -12,7 +12,7 @@ export const Header = () => {
         <p className={styles.header__text}>v.01</p>
       </div>
       <ListMenu />
-      <User/>
+      <User />
     </div>
   );
 };
