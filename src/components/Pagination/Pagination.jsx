@@ -9,7 +9,7 @@ export const Pagination = () => {
         Showing data 1 to 8 of 256K entries
       </h2>
       <div className={styles.pagination__wrapper}>
-        <div className={styles.pagitation__item}>
+        <div className={styles.icon__wrapper}>
           <IconLeft />
         </div>
         <ul className={styles.pagination__list}>
@@ -20,7 +20,7 @@ export const Pagination = () => {
           <li>...</li>
           <li className={styles.pagitation__item}>40</li>
         </ul>
-        <div className={styles.pagitation__item}>
+        <div className={styles.icon__wrapper}>
           <IconRight />
         </div>
       </div>
